@@ -10,7 +10,7 @@
     "ALIVE_NAME": {
       "description": "هنا ضع اسم التلجرام الخاص بك",
       "value": ""
-  
+    },
     "ENV": {
       "description": "لا تغير هذه القيمة",
       "value": "ANYTHING"
