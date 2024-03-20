@@ -28,6 +28,10 @@
       "description": "اسم التطبيق أول مربع كتبته خلي هنا نفسه وحروف صغيرة",
       "value": "",
       "required": false
+     },
+    "TG_BOT_USERNAME": {
+      "description": "هنا ضع معرف بوتك بدون @",
+      "value": ""
     },
     "TG_BOT_TOKEN": {
       "description": "هنا ضع توكن بوتك الذي صنعته",
@@ -42,7 +46,7 @@
   "addons": [{
     "plan": "heroku-postgresql",
     "options": {
-      "version": "15"
+      "version": "16"
     }
   }],
   "buildpacks": [
