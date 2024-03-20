@@ -1,8 +1,12 @@
 {
-  "name": "سورس عليثون المجاني | Source Alithon Free",
+  "name": "😶سورس عليثون",
   "description": "اللهم صلِ على محمد وآل محمد",
   "logo": "https://telegra.ph/file/dc3a2662d6d344a46f94c.jpg",
-  "keywords": ["plugin", "modular", "productivity"],
+  "keywords": [
+    "plugin",
+    "modular",
+    "productivity"
+  ],
   "repository": "https://github.com/jepthoniq/lMl10l/",
   "website": "#TODO",
   "success_url": "#TODO",
@@ -12,11 +16,11 @@
       "value": ""
     },
     "ENV": {
-      "description": "لا تغير هذه القيمة",
+      "description": "لا تغير هذه القيمه",
       "value": "ANYTHING"
     },
     "STRING_SESSION": {
-      "description": "هنا ضع كود التيرمكس أو كود البايروجرام الخاص بك",
+      "description": "هنا ضع كود سيشن تيليثون كود تيرمكس الخاص بك(كود السيشن)",
       "value": ""
     },
     "HEROKU_API_KEY": {
@@ -25,10 +29,10 @@
       "required": false
     },
     "HEROKU_APP_NAME": {
-      "description": "اسم التطبيق أول مربع كتبته خلي هنا نفسه وحروف صغيرة",
+      "description": "اسم التطبيق خلي هنا نفسه",
       "value": "",
       "required": false
-     },
+    },
     "TG_BOT_USERNAME": {
       "description": "هنا ضع معرف بوتك بدون @",
       "value": ""
@@ -38,7 +42,7 @@
       "value": ""
     },
     "TZ": {
-      "description": "المنطقة الزمنية من القارة الخاصة بك وعاصمة بلدك يجب أن يكون أول حرف كبير",
+      "description": "المنطقه الزمنيه من القارة الخاصه بك وعاصمه بلدك يجب ان يكون اول حرف كبير",
       "value": "Asia/Baghdad",
       "required": false
     }
@@ -49,36 +53,21 @@
       "version": "15"
     }
   }],
-  "buildpacks": [
-    {
-      "url": "https://github.com/jepthoniq/heroku-buildpack-ffmpeg-latest"
-    },
-    {
-      "url": "https://github.com/heroku/heroku-buildpack-google-chrome"
-    },
-    {
-      "url": "https://github.com/heroku/heroku-buildpack-chromedriver"
-    },
-    {
-      "url": "https://github.com/riganf/heroku-buildpack-p7zip"
-    },
-    {
-      "url": "https://github.com/rahulps1000/heroku-buildpack-nodejs"
-    },
-    {
-      "url": "https://github.com/heroku/heroku-buildpack-apt.git"
-    },
-    {
-      "url": "https://github.com/chrismytton/heroku-buildpack-jq"
-    },
-    {
-      "url": "heroku/python"
-    }
-  ],
-  "formation": {
-    "worker": {
-      "quantity": 1
-    }
-  },
-  "stack": "heroku-22"
+  "buildpacks": [{
+    "url":"https://github.com/heroku/heroku-buildpack-google-chrome"
+  },{
+    "url":"https://github.com/heroku/heroku-buildpack-chromedriver"
+  },{
+    "url": "https://github.com/riganf/heroku-buildpack-p7zip"
+  },{
+    "url": "https://github.com/rahulps1000/heroku-buildpack-nodejs"
+  },{
+    "url": "https://github.com/heroku/heroku-buildpack-apt.git"
+  },{
+    "url": "https://github.com/chrismytton/heroku-buildpack-jq"
+  },{
+    "url": "https://github.com/jepthoniq/heroku-buildpack-ffmpeg-latest"
+  },{
+    "url": "heroku/python"
+  }]
 }
